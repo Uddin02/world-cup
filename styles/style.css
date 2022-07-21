@@ -1,0 +1,584 @@
+/*---------------- 
+    google fonts 
+------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*---------------- 
+    common styles 
+------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: grid;
+    align-items: center;
+}
+
+/*--------------------- 
+    section-container
+-----------------------*/
+
+.container {
+    width: 1270px;
+    height: 531px;
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    border-radius: 30px;
+    margin: 3em 1em 2em 3em;
+}
+
+.top-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+}
+
+.banner-title {
+    margin: 2px 0 30px 106px;
+    width: 531px;
+    height: 424px;
+}
+
+.title {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    margin-top: 119px;
+}
+
+.banner-title h3 {
+    font-weight: 600;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 22px;
+    margin: -20px 0 50px 0;
+
+}
+
+.button {
+    padding: 16px 25px;
+    background-color: #3f0d12;
+    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+#angle-right {
+    height: 24px;
+    width: 24px;
+    padding-left: 10px;
+}
+
+.button:hover {
+    background-color: #bf033b;
+    background-image: linear-gradient(315deg, #bf033b 0%, #ffc719 74%);
+    color: #FFFFFF;
+}
+
+.banner-image img {
+    width: 434px;
+    height: 469px;
+    margin-right: 79px;
+    margin-top: 62px;
+}
+
+/*-------------------------------- 
+    section transfer-blogs start
+----------------------------------*/
+.transfer-blogs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 26px;
+}
+
+/*-------------------------------- 
+         buttons-div start
+----------------------------------*/
+
+.buttons {
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    display: grid;
+    place-items: center;
+    padding-bottom: 18px;
+    margin-top: 2em;
+    margin-left: 3em;
+
+}
+
+.buttons a {
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 1px;
+    appearance: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    background: #FFFFFF;
+    color: #161616;
+    width: 252px;
+    height: 64px;
+    text-decoration: none;
+}
+
+.box {
+    margin-top: 25px;
+}
+
+.buttons .different-btn {
+    margin-top: 20px;
+    background-color: #3f0d12;
+    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+    color: #FFFFFF;
+}
+
+.box:hover {
+    background-color: #3f0d12;
+    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+    color: #FFFFFF;
+}
+
+/*-------------------------------- 
+          buttons-div end
+----------------------------------*/
+/*-------------------------------- 
+          blogs-div start
+----------------------------------*/
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 11px;
+    row-gap: 30px;
+    margin-top: 2em;
+}
+
+.blogs,
+.transfers {
+    width: 312px;
+    height: 362px;
+    background: #F6F0EA;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blog {
+    padding-left: 20px;
+}
+
+#transfer-btn {
+    width: 150px;
+    height: 32px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+#transfer-btn a {
+    width: 67px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #161616;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.transfer-heading {
+    width: 272px;
+    height: 54px;
+    margin-top: 15px;
+}
+
+.transfer-heading h3 {
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+}
+
+#time {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(22, 22, 22, 0.7);
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    padding: 12px 29px;
+    margin-top: 10px;
+    visibility: hidden;
+
+}
+
+.extra a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 131px;
+    height: 40px;
+    background: #DD0000;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 1em;
+}
+
+/*-------------------------------- 
+          blogs-div end
+----------------------------------*/
+
+/*-------------------------------- 
+    section transfer-blogs end
+----------------------------------*/
+/*-------------------------------- 
+           footer start
+----------------------------------*/
+footer {
+    width: 100%;
+    height: 280px;
+    background: #161616;
+    position: absolute;
+    top: 1950px;
+    display: grid;
+    place-items: center;
+}
+
+footer .goal {
+    margin-bottom: 20px;
+}
+
+footer .goal h2 {
+
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+footer .hozontal-line {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+footer .info li {
+    display: inline-block;
+    appearance: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #B9B9B9;
+}
+
+.connect li {
+    display: inline-block;
+    appearance: none;
+    padding-right: 30px;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.connect li a {
+    color: #FFFFFF;
+}
+
+/*-------------------------------- 
+           footer end
+----------------------------------*/
+/*-------------------------------- 
+        upcoming-match page
+----------------------------------*/
+.match-time-blogs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 26px;
+
+}
+
+.blogs-align {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2em;
+    row-gap: 30px;
+    column-gap: 11px;
+}
+
+.blogs-align,
+.matches {
+    width: 312px;
+    height: 242px;
+    background: #E8E8E8;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.flags {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    padding: 53px 30px 0 30px;
+}
+
+.match {
+    padding-left: 5px;
+}
+
+.matches .match .teams h2 {
+    color: #161616;
+    font-weight: 600;
+    font-size: 20px;
+    width: 202px;
+    height: 30px;
+    padding: 0 45px 0 45px;
+
+
+}
+
+.matches .teams h2 span {
+    color: #635f5f;
+    margin: 0 2px 0 2px;
+}
+
+.matches .match .match-time h3 {
+    width: 166px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+    padding-left: 62px;
+}
+
+.matches .teams h2 span {
+    color: #635f5f;
+    margin: 0 2px 0 2px;
+}
+
+.matches .match .match-time h3 {
+    width: 166px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+    padding-left: 62px;
+}
+
+/*-------------------------------- 
+     upcoming-match page end
+----------------------------------*/
+
+/* media query */
+
+@media screen and (max-width: 576px) {
+    main {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: 1em 1em 1em 2em;
+
+    }
+
+    .top-banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-title {
+        height: 80px;
+        width: 220px;
+        margin: 10px 2px 10px 10px;
+    }
+
+    .title {
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 5px;
+    }
+
+    .banner-image img {
+        margin-left: 20px;
+        margin-top: 150px;
+        height: 250px;
+        width: 150px;
+    }
+
+    .buttons {
+
+        background: white;
+        margin-top: 1em;
+        margin-left: 1em;
+
+    }
+
+    .buttons a {
+        font-weight: 700;
+        font-size: 25px;
+        color: #000000;
+    }
+
+    .transfer-blogs {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        width: 100%;
+        top: 680%;
+    }
+
+    footer .goal {
+        margin-bottom: 5px;
+    }
+
+    footer .goal h2 {
+
+        font-weight: 200;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    footer .info li {
+        display: block;
+        appearance: none;
+        font-weight: 200;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .connect li {
+        display: none;
+
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    main {
+        align-items: center;
+        place-items: center;
+    }
+
+    .container {
+        width: 90%;
+        margin: 1em 1em 1em 2em;
+
+    }
+
+    .top-banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+
+    .buttons {
+        background: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+        padding-bottom: 2px;
+        margin-top: 0;
+        align-items: center;
+        margin-left: 1em;
+        margin-right: 15em;
+
+    }
+
+    .buttons a {
+        font-weight: 700;
+        font-size: 25px;
+        color: #000000;
+    }
+
+
+    .transfer-blogs {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        margin-right: 16em;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+    }
+
+    .extra {
+        visibility: visible;
+    }
+
+
+    footer {
+        width: 80em;
+        top: 350%;
+    }
+
+    footer .goal {
+        margin-bottom: 5px;
+    }
+
+    footer .goal h2 {
+
+        font-weight: 200;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    footer .info li {
+        display: inline-block;
+        appearance: none;
+        font-weight: 200;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .connect li {
+        display: none;
+
+    }
+
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1333px) {
+
+    footer {
+        width: 85em;
+        top: 250%;
+    }
+
+}
